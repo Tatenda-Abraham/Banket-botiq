@@ -44,7 +44,7 @@ const products = [
     category: "Shoes",
     price: 22,
     availability: "Available",
-    image: "images/airmax.jpeg"
+    image: "images/Airmax2.jpeg"
   },
   {
     name: "Dress",
@@ -97,7 +97,7 @@ const products = [
   }
 ];
 
-const placeholderImage = "images/zim_acc.jpg";
+const placeholderImage = "images/Airmax2.jpeg";
 const productGrid = document.querySelector("#productGrid");
 const searchInput = document.querySelector("#productSearch");
 const categorySelect = document.querySelector("#categoryFilter");
