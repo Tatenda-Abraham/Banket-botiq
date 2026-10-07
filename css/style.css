@@ -651,9 +651,21 @@ h2 {
 
 .footer-bottom {
   min-height: 55px;
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  color: #d6dfd3;
-  font-size: 0.76rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 0.85rem;
+  padding-block: 16px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.dev-credit {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 
