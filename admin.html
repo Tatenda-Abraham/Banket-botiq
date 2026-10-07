@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Update the catalogue | Fashion Hub</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="section-space">
+      <div class="container">
+        <p class="eyebrow">Fashion Hub catalogue</p>
+        <h1>Update your products</h1>
+        <p>There is no account or database to set up. Edit the <code>products</code> list in <code>js/store.js</code> to change what appears on the website.</p>
+
+        <h2>Adding a photo</h2>
+        <ol>
+          <li>Copy your photo into the website's <code>images</code> folder.</li>
+          <li>Use its path in the product's <code>image</code> value, for example <code>images/blue-dress.jpg</code>.</li>
+          <li>Save <code>js/store.js</code> and refresh the website.</li>
+        </ol>
+
+        <h2>Adding or changing a product</h2>
+        <p>In <code>js/store.js</code>, edit a product's name, category, price, availability, and image. Copy a product object to add another item, or remove an object to take one off the catalogue.</p>
+        <pre><code>{
+  name: "Blue Summer Dress",
+  category: "Dresses",
+  price: 15,
+  availability: "Available",
+  image: "images/blue-dress.jpg"
+}</code></pre>
+
+        <h2>Changing the currency or contact details</h2>
+        <p>At the top of <code>js/store.js</code>, change <code>currency</code> to a currency code such as <code>"BWP"</code> or <code>"ZAR"</code>. Fill in the phone, WhatsApp, email, and address values in <code>contactDetails</code> to display your contact information.</p>
+
+        <a class="button button-primary" href="index.html">Back to Fashion Hub</a>
+      </div>
+    </main>
+  </body>
+</html>

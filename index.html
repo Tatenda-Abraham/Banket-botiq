@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#214f3b" />
+
+    <meta
+      name="description"
+      content="Discover the latest boutique styles at Banket Boutique."
+    />
+
+    <title>Banket Boutique | Quality Fashion & Apparel</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Catalogue JavaScript -->
+    <script src="js/store.js" defer></script>
+  </head>
+
+  <body>
+
+    <!-- =====================================================
+         ATTRACTIVE GREEN BELT ANNOUNCEMENT
+    ====================================================== -->
+    <div class="top-green-belt">
+      <div class="container belt-content">
+        <span class="belt-badge">✦ BANKET BOUTIQUE ✦</span>
+        <span class="belt-text">Shop No. 2, Bevtech Building, Kuwadzana Township, Banket</span>
+        <span class="belt-tag">Open for Shopping</span>
+      </div>
+    </div>
+
+
+    <!-- =====================================================
+         HEADER / NAVIGATION
+    ====================================================== -->
+    <header class="site-header">
+
+      <div class="container nav-wrap">
+
+        <!-- Brand with Shop Logo -->
+        <a
+          class="brand"
+          href="#collection"
+          aria-label="Banket Boutique home"
+        >
+          <img
+            src="images/logo.jpeg"
+            alt="Banket Boutique Shop Logo"
+            class="shop-logo"
+          />
+
+          <div class="brand-text">
+            <span>Banket <strong>Boutique</strong></span>
+            <small class="brand-sub">Quality Fashion & Apparel</small>
+          </div>
+        </a>
+
+
+        <!-- Mobile navigation button -->
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mainNav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+
+        <!-- Navigation -->
+        <nav
+          class="main-nav"
+          id="mainNav"
+          aria-label="Main navigation"
+        >
+          <a href="#collection">Collection</a>
+          <a href="#contact">Location & Address</a>
+        </nav>
+
+      </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+    <main>
+
+      <!-- ===================================================
+           COLLECTION SECTION
+      ==================================================== -->
+      <section
+        class="collection section-space"
+        id="collection"
+      >
+
+        <div class="container">
+
+          <!-- MOVING GOLD TEXT GREEN BELT -->
+          <div class="collection-green-belt" aria-label="Boutique Announcement">
+            <div class="marquee-track">
+              <div class="marquee-content">
+                <span>✦ AFFORDABLE LUXURY — Cheap & High Quality Clothing Available Now at Banket Boutique</span>
+                <span>✦ Premium Style at Unbeatable Prices</span>
+                <span>✦ Visit Us at Shop No. 2, Bevtech Building, Kuwadzana Township, Banket</span>
+                <span>✦ New Arrivals Everyday</span>
+                <span>✦ AFFORDABLE LUXURY — Cheap & High Quality Clothing Available Now at Banket Boutique</span>
+                <span>✦ Premium Style at Unbeatable Prices</span>
+                <span>✦ Visit Us at Shop No. 2, Bevtech Building, Kuwadzana Township, Banket</span>
+                <span>✦ New Arrivals Everyday</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collection heading -->
+          <div class="section-top">
+
+            <div>
+
+              <p class="eyebrow">
+                Hand-picked for you
+              </p>
+
+              <h2>
+                Our Collection
+              </h2>
+
+            </div>
+
+            <p class="section-intro">
+              Explore our boutique pieces available in store.
+            </p>
+
+          </div>
+
+
+          <!-- =================================================
+               CATEGORY PILLS & SEARCH FILTER
+          ================================================== -->
+          <div
+            class="category-pills"
+            id="categoryPills"
+            role="tablist"
+            aria-label="Filter collection by category"
+          ></div>
+
+          <div class="catalog-tools">
+
+            <!-- Search -->
+            <label class="search-box">
+
+              <span class="sr-only">
+                Search the collection
+              </span>
+
+              <span aria-hidden="true">
+                ⌕
+              </span>
+
+              <input
+                id="productSearch"
+                type="search"
+                placeholder="Search the collection"
+              />
+
+            </label>
+
+
+            <!-- Category Select -->
+            <label class="category-box">
+
+              <span class="sr-only">
+                Choose a category
+              </span>
+
+              <select
+                id="categoryFilter"
+                aria-label="Filter by category"
+              >
+                <option value="All">
+                  All pieces
+                </option>
+              </select>
+
+            </label>
+
+          </div>
+
+
+          <!-- =================================================
+               PRODUCT GRID
+          ================================================== -->
+          <div
+            class="product-grid"
+            id="productGrid"
+            aria-live="polite"
+          ></div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ===================================================
+           CONTACT SECTION
+      ==================================================== -->
+      <section
+        class="contact section-space"
+        id="contact"
+      >
+
+        <div class="container contact-layout">
+
+          <!-- Contact introduction -->
+          <div>
+
+            <p class="eyebrow">
+              Visit Our Store
+            </p>
+
+            <h2>
+              Location &<br />
+              <span>Address.</span>
+            </h2>
+
+            <p class="contact-copy">
+              We welcome you to visit our boutique in Banket to explore our full collection.
+            </p>
+
+          </div>
+
+
+          <!-- Contact details card -->
+          <div class="contact-card">
+
+            <p class="contact-label">
+              Boutique Location
+            </p>
+
+            <p
+              class="contact-address"
+              data-contact-address
+            >
+              <strong>We are available at this address:</strong><br />
+              Shop No. 2, Bevtech Building, Kuwadzana Township Banket
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="site-footer">
+
+      <div class="container footer-top">
+
+        <!-- Footer brand with Logo -->
+        <a
+          class="brand brand-footer"
+          href="#collection"
+        >
+          <img
+            src="images/logo.jpeg"
+            alt="Banket Boutique Logo"
+            class="shop-logo"
+          />
+
+          <div class="brand-text">
+            <span>Banket <strong>Boutique</strong></span>
+            <small class="brand-sub" style="color: #d6dfd3;">Quality Fashion & Apparel</small>
+          </div>
+        </a>
+
+        <p>
+          Shop no2, Bevetech Building, Kuwadzana Township Banket
+        </p>
+
+        <a
+          class="footer-top-link"
+          href="#collection"
+        >
+          Back to top ↑
+        </a>
+
+      </div>
+
+
+      <!-- Footer bottom -->
+      <div class="container footer-bottom">
+
+        <span>
+          ©
+          <span id="currentYear"></span>
+          Banket Boutique
+        </span>
+
+        <span>
+          We are available at Shop no2, Bevetech Building, Kuwadzana Township Banket
+        </span>
+
+      </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         PRODUCT DETAILS MODAL
+    ====================================================== -->
+    <div
+      class="product-modal"
+      id="productModal"
+      aria-hidden="true"
+    >
+
+      <!-- Dark background -->
+      <div
+        class="modal-backdrop"
+        data-close-modal
+      ></div>
+
+      <!-- Modal Dialog -->
+      <section
+        class="modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalProductName"
+      >
+
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close product details"
+        >
+          ×
+        </button>
+
+        <div id="modalContent"></div>
+
+      </section>
+
+    </div>
+
+  </body>
+</html>
